@@ -2,7 +2,7 @@
   
   <img src="assets/logo.svg" alt="YouTube Time Controller Logo" width="120" height="120">
   
-  # 🎯 YouTube Time Controller
+  # YouTube Time Controller
   
   > Trasforma YouTube da "buco nero del tempo" a strumento di apprendimento strutturato
   
@@ -244,6 +244,13 @@ Licenza MIT - Sentiti libero di fare fork, contribuire o usare per imparare.
 ## ⭐ Supporto
 
 Se questo progetto ti è utile, lascia una stella! È l'unico modo per farmi sapere che vale la pena continuare.
+
+---
+
+## 🔗 Contatti
+
+- **LinkedIn**: [Francesco Mancino](https://www.linkedin.com/in/francesco-mancino-dev/)
+- **GitHub**: [freshgr4m](https://github.com/freshgr4m)
 
 ---
 
