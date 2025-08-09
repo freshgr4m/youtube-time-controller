@@ -20,12 +20,12 @@ Non guardo più la TV da anni. Quando non leggo, non gioco o non esco con gli am
 
 ### La Mia Routine YouTube (Pre-App):
 - **Mattina**: Apro per vedere tutorial React o trucchi UI/UX design
-- **5 minuti dopo**: Sto guardando shorts di calcio random
-- **10 minuti dopo**: Video su alieni e misteri egizi (la mia VERA passione notturna 👽)
+- **5 minuti dopo**: Sto guardando shorts di sport random
+- **10 minuti dopo**: Video su alieni e misteriose antiche civiltà (la mia VERA passione notturna xD)
 - **2 ore dopo**: Non ricordo nemmeno cosa stavo cercando all'inizio
 
 ### Il Vero Problema:
-- ✅ **YouTube ha contenuti fantastici** - tutorial, documentari, calcio, crime stories
+- ✅ **YouTube ha contenuti fantastici** - tutorial, documentari, sport, crime stories
 - ❌ **Feed caotico** - algoritmo ti bombarda di input continui
 - ❌ **Dipendenza da Shorts** - scorrimento infinito che devora tempo prezioso  
 - ❌ **Cambio di contesto** - parti per studiare, finisci a guardare UFO
@@ -48,7 +48,7 @@ Invece di un feed caotico, creo la MIA programmazione:
 **🌆 Sera (20-22): Blocco Relax**  
 - Documentari alieni e misteri egizi 👽
 - Storie criminali e investigazioni
-- Video calcio e highlights
+- Video calcio e sport in generale
 - Contenuti di intrattenimento
 
 **🚫 Modalità Zero Shorts**
