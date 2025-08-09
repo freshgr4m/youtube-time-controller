@@ -27,8 +27,8 @@ Non guardo più la TV da anni. Quando non leggo, non gioco o non esco con gli am
 ### Il Vero Problema:
 - ✅ **YouTube ha contenuti fantastici** - tutorial, documentari, calcio, crime stories
 - ❌ **Feed caotico** - algoritmo ti bombarda di input continui
-- ❌ **Shorts addition** - scroll infinito che devora tempo prezioso  
-- ❌ **Context switching** - parti per studiare, finisci a guardare UFO
+- ❌ **Dipendenza da Shorts** - scorrimento infinito che devora tempo prezioso  
+- ❌ **Cambio di contesto** - parti per studiare, finisci a guardare UFO
 
 **Non voglio eliminare YouTube. Voglio usarlo MEGLIO.**
 
@@ -39,32 +39,32 @@ Non guardo più la TV da anni. Quando non leggo, non gioco o non esco con gli am
 ### Concept: "YouTube TV Controllata"
 Invece di un feed caotico, creo la MIA programmazione:
 
-**🌅 Mattina (9-12): Learning Block**
+**🌅 Mattina (9-12): Blocco Apprendimento**
 - Tutorial web design
-- Coding tips e tricks
-- UI/UX inspiration
-- Solo canali educational selezionati
+- Consigli e trucchi di programmazione
+- Ispirazione UI/UX
+- Solo canali educativi selezionati
 
-**🌆 Sera (20-22): Relax Block**  
+**🌆 Sera (20-22): Blocco Relax**  
 - Documentari alieni e misteri egizi 👽
-- Storie crime e investigazioni
+- Storie criminali e investigazioni
 - Video calcio e highlights
-- Contenuti entertainment
+- Contenuti di intrattenimento
 
-**🚫 Zero Shorts Mode**
-- Niente scroll infinito
+**🚫 Modalità Zero Shorts**
+- Niente scorrimento infinito
 - Niente distrazioni casuali
 - Solo contenuti lunghi e di qualità
 
 ### Come Funziona:
 1. **Pulizia Lista Canali** - Seleziono solo quelli che mi interessano davvero
-2. **Categorie Custom** - Divido per Learning, Sports, Mysteries, etc.
-3. **Time Blocking** - App mostra solo contenuti del blocco attivo
-4. **Override Option** - Posso sempre disattivare per navigazione libera
+2. **Categorie Personalizzate** - Divido per Apprendimento, Sport, Misteri, ecc.
+3. **Blocchi Temporali** - L'app mostra solo contenuti del blocco attivo
+4. **Opzione di Sovrascrittura** - Posso sempre disattivare per navigazione libera
 
 ---
 
-## 🔍 Research & Validation
+## 🔍 Ricerca e Validazione
 
 ### Processo di Ricerca:
 1. **Keywords Everywhere** → Bloccato da paywall €3/mese
@@ -75,10 +75,10 @@ Invece di un feed caotico, creo la MIA programmazione:
 - **67.100 ricerche/mese** per "youtube timer", "gestire youtube"
 - **100% keywords bassa competizione** 
 - **Crescita +347%** negli ultimi 4 anni
-- **Plot twist**: Tutti bloccano YouTube, nessuno aiuta a usarlo meglio
+- **Colpo di scena**: Tutti bloccano YouTube, nessuno aiuta a usarlo meglio
 
-### Top Keywords Trovate:
-| Keyword | Volume/Mese | Competizione | Mercato |
+### Principali Parole Chiave Trovate:
+| Parola Chiave | Volume/Mese | Competizione | Mercato |
 |---------|-------------|-------------|---------|
 | youtube timer | 5,000 | Low | IT |
 | youtube addiction | 5,000 | Low | EN |
@@ -90,11 +90,11 @@ Invece di un feed caotico, creo la MIA programmazione:
 
 ---
 
-## ⚙️ Tech Stack & Decisioni
+## ⚙️ Stack Tecnologico e Decisioni
 
 *Premessa importante: Queste sono le scelte iniziali che sto utilizzando per il prototipo. Durante lo sviluppo molte cose potrebbero cambiare in base ai feedback e alle necessità che emergono.*
 
-### Stack Attuale:
+### Stack Tecnologico Attuale:
 - **Frontend**: Next.js 15 con TypeScript e Tailwind CSS
 - **State Management**: Zustand con TanStack Query  
 - **Database**: Supabase (PostgreSQL)
@@ -114,28 +114,28 @@ Ripeto: tutto questo potrebbe cambiare durante lo sviluppo. Sono ancora in fase 
 
 ---
 
-## 🚧 Challenges & Solutions
+## 🚧 Sfide e Soluzioni
 
-### Challenge #1: YouTube API Limits
+### Sfida #1: Limiti API YouTube
 *Questo è uno dei problemi tecnici principali che ho dovuto affrontare durante lo sviluppo.*
 
 YouTube API permette solo 10.000 quota units al giorno. Una singola ricerca canale costa 100 units, il che significa che con 50 utenti attivi la quota finirebbe in poche ore.
 
 La soluzione che sto implementando è un sistema di cache intelligente usando Supabase. L'idea è salvare i dati video nel database e servirli da lì invece di chiamare sempre l'API di YouTube. Finora i risultati sono buoni: la maggior parte delle richieste viene servita dalla cache e i tempi di risposta sono passati da 2 secondi a 200 millisecondi.
 
-### Challenge #2: Gestione Stati Complessi
-*Ancora work in progress, sto sperimentando diverse soluzioni.*
+### Sfida #2: Gestione Stati Complessi
+*Ancora in fase di sviluppo, sto sperimentando diverse soluzioni.*
 
 L'app deve gestire time blocks, categorie, canali, preferenze utente e molti altri stati. Ho scelto Zustand perché più semplice di Redux ma più potente del semplice useState di React. Sto ancora definendo l'architettura finale dello stato.
 
-### Challenge #3: UX per Time Blocking
-*Questa è forse la sfida più importante - rendere il concept facile da capire e usare.*
+### Sfida #3: Esperienza Utente per i Blocchi Temporali
+*Questa è forse la sfida più importante - rendere il concetto facile da capire e usare.*
 
 Come rendere intuitivo il concetto di assegnare canali a momenti specifici della giornata? Sto sperimentando con drag & drop e grid visuali. L'obiettivo è che anche chi non è tecnico capisca subito come funziona.
 
 ---
 
-## 📊 Current Status
+## 📊 Stato Attuale
 
 *Importante: Questo è lo stato attuale del progetto. Essendo in sviluppo attivo, le funzionalità e le priorità cambiano frequentemente.*
 
@@ -159,19 +159,19 @@ Come rendere intuitivo il concetto di assegnare canali a momenti specifici della
 - Gestione quota con fallback
 - Auth Google OAuth funzionante
 
-### ⚠️ Work in Progress:
+### ⚠️ In Fase di Sviluppo:
 
-**⚙️ Settings Panel**
-- Time blocks editor (solo UI)
-- Categories manager (placeholder)  
-- Preferences form (da implementare)
+**⚙️ Pannello Impostazioni**
+- Editor blocchi temporali (solo interfaccia)
+- Gestore categorie (segnaposto)  
+- Modulo preferenze (da implementare)
 
-**📱 Mobile Experience**
-- Responsive design basic
-- Touch interactions da ottimizzare
-- PWA features da aggiungere
+**📱 Esperienza Mobile**
+- Design responsivo di base
+- Interazioni touch da ottimizzare
+- Funzionalità PWA da aggiungere
 
-### 🎯 Next Milestones:
+### 🎯 Prossimi Traguardi:
 *Roadmap molto approssimativa - le priorità cambiano in base ai feedback e ai problemi che emergono durante lo sviluppo.*
 
 **Prossime settimane**: Completare il panel settings funzionale
@@ -185,28 +185,28 @@ Tutto molto flessibile e dipendente da come va lo sviluppo e dai feedback che ri
 
 
 
-## 🎖️ Lessons Learned
+## 🎖️ Lezioni Apprese
 
-### 💡 Technical Insights:
-1. **Cache è tutto** - Con API limits, cache intelligente non è optional
-2. **State management matters** - Zustand perfect balance semplicità/potenza  
-3. **YouTube API è complessa** - Molta logica hidden, documentazione lacunosa
+### 💡 Intuizioni Tecniche:
+1. **La cache è tutto** - Con i limiti API, una cache intelligente non è opzionale
+2. **La gestione dello stato è importante** - Zustand equilibrio perfetto tra semplicità e potenza  
+3. **L'API YouTube è complessa** - Molta logica nascosta, documentazione lacunosa
 
-### 💡 Product Insights:
-1. **Validation before building** - 3 giorni di research > 3 settimane di dev blind
-2. **Personal pain points** - I tuoi problemi sono spesso shared problems
-3. **Niche > Generic** - "YouTube productivity" > "social media blocker"
+### 💡 Intuizioni di Prodotto:
+1. **Validazione prima dello sviluppo** - 3 giorni di ricerca > 3 settimane di sviluppo cieco
+2. **Problemi personali** - I tuoi problemi sono spesso problemi condivisi
+3. **Nicchia > Generico** - "produttività YouTube" > "blocco social media"
 
-### 💡 Process Insights:
-1. **Build in public works** - Feedback e motivazione costante
-2. **Document everything** - Future you (e altri) ringrazieranno
-3. **MVP mentality** - Shipping beats perfecting sempre
+### 💡 Intuizioni di Processo:
+1. **Costruire in pubblico funziona** - Feedback e motivazione costanti
+2. **Documenta tutto** - Il te del futuro (e altri) ti ringrazieranno
+3. **Mentalità MVP** - Rilasciare batte sempre perfezionare
 
 ---
 
 
 
-## 🙏 Credits
+## 🙏 Riconoscimenti
 
 - **Next.js Team** - Framework fantastico
 - **Supabase** - Backend-as-a-service che just works
@@ -217,9 +217,9 @@ Tutto molto flessibile e dipendente da come va lo sviluppo e dai feedback che ri
 
 ---
 
-## 📝 License
+## 📝 Licenza
 
-MIT License - Feel free to fork, contribute, or use for learning.
+Licenza MIT - Sentiti libero di fare fork, contribuire o usare per imparare.
 
 **Se questo progetto ti ispira, l'unica cosa che chiedo è condividere quello che impari.** 🚀
 
@@ -241,11 +241,11 @@ MIT License - Feel free to fork, contribute, or use for learning.
 
 ---
 
-## ⭐ Support
+## ⭐ Supporto
 
 Se questo progetto ti è utile, lascia una stella! È l'unico modo per farmi sapere che vale la pena continuare.
 
 ---
 
-*Ultimo update: Agosto 2025*  
-*Built with ❤️ for a better YouTube experience*
+*Ultimo aggiornamento: Agosto 2025*  
+*Costruito con ❤️ per una migliore esperienza YouTube*
