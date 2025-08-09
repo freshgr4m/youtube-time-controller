@@ -183,28 +183,7 @@ Tutto molto flessibile e dipendente da come va lo sviluppo e dai feedback che ri
 
 ---
 
-## 🧪 Want to Help?
 
-### 🚀 Beta Testing
-Cerco 10-15 beta tester che:
-- Usano YouTube >1 ora/giorno
-- Hanno lo stesso problema di "context switching"  
-- Vogliono più controllo sui contenuti
-- Danno feedback onesto (anche brutal)
-
-### 🤝 Collaboration
-Aperto a:
-- **UI/UX feedback** - Sono dev, non designer
-- **Content strategy** - Come spiegare meglio il concept?
-- **Technical review** - Architecture decisions, performance
-- **Partnership** - YouTube creators, productivity tools
-
-### 📬 Contact
-- **LinkedIn**: [Il tuo profilo LinkedIn]
-- **GitHub Issues**: Per bugs e feature requests
-- **Email**: [La tua email] per collaboration serie
-
----
 
 ## 🎖️ Lessons Learned
 
@@ -225,26 +204,7 @@ Aperto a:
 
 ---
 
-## 📈 Future Vision
 
-### Short Term (3-6 mesi):
-- 100+ utenti attivi
-- Mobile app (React Native?)
-- Advanced analytics (tempo risparmiato, focus improvement)
-
-### Medium Term (6-12 mesi):  
-- Integrazione altri video platforms (Vimeo, Twitch?)
-- AI content categorization
-- Social features (shared time blocks?)
-
-### Long Term (1-2 anni):
-- Productivity suite completa
-- Enterprise version per aziende
-- API pubblica per developers
-
-**L'obiettivo non è fare i milioni. È risolvere un problema reale per persone reali.** 
-
----
 
 ## 🙏 Credits
 
